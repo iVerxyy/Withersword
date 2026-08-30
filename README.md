@@ -4,6 +4,8 @@ Welcome to the official repository for **Withersword**, a classic retro top-down
 
 [![Godot Engine](https://img.shields.io/badge/Godot-%23FFFFFF.svg?logo=godot-engine)](#)
 
+check it out on itch.io: https://iverxy.itch.io/withersword
+
 ---
 
 <img width="574" height="240" alt="demo vid 1 for witheredsword" src="https://github.com/user-attachments/assets/edab968e-fd5f-4223-b9cd-2882939cf795" />
