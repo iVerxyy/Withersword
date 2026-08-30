@@ -6,14 +6,25 @@ Welcome to the official repository for **Withersword**, a classic retro top-down
 
 ---
 
-## Core Game Features (v0.1.0 Launch)
+<img width="574" height="240" alt="demo vid 1 for witheredsword" src="https://github.com/user-attachments/assets/edab968e-fd5f-4223-b9cd-2882939cf795" />
+
+
+## Regular Features:
+ - Interaction with NPC's across the world
+ - Fun, dynamic directional combat, awesome sword swings based on the location of the cursor.
+ - Open world exploration
+
+
+## Advanced features & Game mechanics (v0.1.0 Launch)
 Features include:
 
-*   **Dynamic Directional Combat:** Awesome sword swings based on the location of the cursor.
-*   **Vertex Shader Hit Feedback:** Enemies utilize a custom CanvasItem GLSL shader pipeline to seamlessly flash pure white upon impact without changing underlying sprite properties.
-*   **Physics-Integrated Recoil & Knockback:** Combat impacts utilize vector-based math calculations written in GD-Script to smoothly displace targets via friction decay (`move_toward`), avoiding choppy frame-teleportation bugs.
-*   **Synchronized HUD System:** A custom User Interface heart tracker (designed in aseptite) overlay hooked directly into player script variables that updates its rendering state dynamically based on player health.
-*   **Custom Global Brand-Injections:** The application features a fully custom cursor scheme and embedded asset metadata, presenting a highly polished standalone execution layer on desktop architectures.
+* **Vertex Shader Hit Feedback:** Enemies utilize a custom CanvasItem GLSL shader pipeline to seamlessly flash pure white upon impact without changing underlying sprite properties.
+* **Physics-Integrated Recoil & Knockback:** Combat impacts utilize vector-based math calculations written in GD-Script to smoothly displace targets via friction decay (`move_toward`), avoiding choppy frame-teleportation bugs.
+* **Synchronized HUD System:** A custom User Interface heart tracker (designed in aseptite) overlay hooked directly into player script variables that updates its rendering state dynamically based on player health.
+* **Custom Global Brand-Injections:** The application features a fully custom cursor scheme and embedded asset metadata, presenting a highly polished standalone execution layer on desktop architectures.
+
+<img width="574" height="240" alt="demo vid 2 for witheredsword" src="https://github.com/user-attachments/assets/5e123279-0069-40e8-8204-653880690a57" />
+
 
 ---
 
