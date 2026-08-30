@@ -1,0 +1,32 @@
+[gd_scene load_steps=6 format=3 uid="uid://b5umbm8ugfm6"]
+
+[ext_resource type="Script" uid="uid://b27jerchbkexd" path="res://scripts/NPC/amelia.gd" id="1_3awxf"]
+[ext_resource type="Resource" uid="uid://dfbl1y4wggym" path="res://NPC Dialogue/amelia_dialogue.tres" id="2_7j4sk"]
+[ext_resource type="Texture2D" uid="uid://2l000gy4vror" path="res://sprites/characters/Amelia_character_red_hair_girl.png" id="2_we12i"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7gcru"]
+size = Vector2(19, 24)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7j4sk"]
+size = Vector2(32, 38)
+
+[node name="Amelia" type="Node2D"]
+script = ExtResource("1_3awxf")
+npc_dialogue = ExtResource("2_7j4sk")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("2_we12i")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+collision_layer = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(-0.5, -1)
+shape = SubResource("RectangleShape2D_7gcru")
+
+[node name="Area2D" type="Area2D" parent="."]
+collision_layer = 4
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
+position = Vector2(0, -1)
+shape = SubResource("RectangleShape2D_7j4sk")
