@@ -1,5 +1,8 @@
 # Withersword v0.1.0 (Alpha Release)
 
+<img width="1368" height="342" alt="WITHERSWORD_THUMBNAIL_V2 CROPPED" src="https://github.com/user-attachments/assets/238af992-8691-4996-8087-50710804aa00" />
+
+
 Welcome to the official repository for **Withersword**, a classic retro top-down open-world Action RPG. Built from the ground up utilizing the power of the **Godot Engine 4.x** and custom high-fidelity pixel art assets drawn manually inside **Aseprite**.
 
 [![Godot Engine](https://img.shields.io/badge/Godot-%23FFFFFF.svg?logo=godot-engine)](#)
