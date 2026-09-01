@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="Dialogue" load_steps=3 format=3 uid="uid://dfbl1y4wggym"]
+
+[ext_resource type="Script" uid="uid://blwmvnc61regy" path="res://scripts/Dialogue/dialogue.gd" id="1_7isy0"]
+[ext_resource type="Texture2D" uid="uid://2l000gy4vror" path="res://sprites/characters/Amelia_character_red_hair_girl.png" id="1_af3vo"]
+
+[resource]
+script = ExtResource("1_7isy0")
+npc_name = "Amelia"
+npc_icon = ExtResource("1_af3vo")
+lines = Array[String](["Hello!  I'm Amelia, the one looking after this little village!", "The Willowmere village, is a peaceful village located in the mystic woods", "If you wish to go outside of the village, beware of slimes, they are all around the place!", "They are not so dangerous, so I think you would be able to deal with them easily."])
+metadata/_custom_type_script = "uid://blwmvnc61regy"
